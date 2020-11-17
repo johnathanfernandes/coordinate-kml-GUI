@@ -38,7 +38,6 @@ def texttocoord(text): # Converts coordinate text to numbers
     coord = (long,lat)
     return coord
     
-    
 def savecoords(): # Add coordinates to list for polygon
     notam = str(PolygonCoordEntry.get())
     boundary.append(texttocoord(notam))
